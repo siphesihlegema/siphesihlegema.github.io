@@ -1,157 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Siphesihle Gema | AI Student</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    /* Reset */
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-
-    body {
-      font-family: 'Roboto', sans-serif;
-      color: #fff;
-      background: linear-gradient(135deg, #1f1c2c, #928dab);
-      line-height: 1.6;
-    }
-
-    header {
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 0 20px;
-    }
-
-    header h1 {
-      font-size: 3rem;
-      margin-bottom: 10px;
-      letter-spacing: 2px;
-    }
-
-    header h2 {
-      font-size: 1.5rem;
-      font-weight: 400;
-      color: #e0e0e0;
-      margin-bottom: 40px;
-    }
-
-    .btn {
-      padding: 12px 30px;
-      background-color: #00f0ff;
-      color: #1f1c2c;
-      font-weight: bold;
-      text-decoration: none;
-      border-radius: 25px;
-      transition: transform 0.2s, box-shadow 0.2s;
-    }
-
-    .btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 15px rgba(0,0,0,0.2);
-    }
-
-    section {
-      padding: 80px 20px;
-      max-width: 900px;
-      margin: 0 auto;
-      text-align: center;
-    }
-
-    section h3 {
-      font-size: 2rem;
-      margin-bottom: 20px;
-      color: #00f0ff;
-    }
-
-    section p {
-      font-size: 1.1rem;
-      color: #f0f0f0;
-    }
-
-    ul.skills {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-top: 20px;
-      gap: 15px;
-    }
-
-    ul.skills li {
-      background-color: rgba(0, 240, 255, 0.2);
-      padding: 8px 16px;
-      border-radius: 20px;
-      font-weight: bold;
-    }
-
-    footer {
-      background-color: rgba(0,0,0,0.4);
-      padding: 20px 0;
-      text-align: center;
-      font-size: 0.9rem;
-      color: #ccc;
-    }
-
-    a.contact-link {
-      color: #00f0ff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    a.contact-link:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 600px) {
-      header h1 { font-size: 2.2rem; }
-      header h2 { font-size: 1.2rem; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siphesihle Gema | AI & CS Student</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-  <header>
-    <h1>Siphesihle Gema</h1>
-    <h2>AI & Data Science Student at UCT</h2>
-    <a href="#contact" class="btn">Get in Touch</a>
-  </header>
+    <section class="hero">
+        <img src="assets/images/profile.jpg" alt="Siphesihle Gema">
+        <h1>Hi, I'm Siphesihle Gema</h1>
+        <p>AI, Computer Science, and Data Science Student at UCT | Vice Chair of the UCT Quantum Computing Society</p>
+        <a href="projects.html" class="btn">See My Work</a>
+    </section>
 
-  <section id="about">
-    <h3>About Me</h3>
-    <p>
-      I am a passionate AI and Data Science student focused on using machine learning and software engineering to solve real-world problems.
-      I enjoy building intelligent systems, analyzing complex datasets, and exploring cutting-edge technologies.
-    </p>
-  </section>
-
-  <section id="skills">
-    <h3>Skills</h3>
-    <ul class="skills">
-      <li>Python</li>
-      <li>SQL</li>
-      <li>Machine Learning</li>
-      <li>Deep Learning</li>
-      <li>FastAPI</li>
-      <li>Pandas & NumPy</li>
-      <li>Git & GitHub</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h3>Contact Me</h3>
-    <p>
-      Email: <a href="mailto:siphesihle@example.com" class="contact-link">siphesihle@example.com</a><br>
-      LinkedIn: <a href="#" class="contact-link">linkedin.com/in/siphesihle</a>
-    </p>
-  </section>
-
-  <footer>
-    &copy; 2025 Siphesihle Gema
-  </footer>
-
+    <footer>
+        <p>&copy; 2025 Siphesihle Gema</p>
+    </footer>
 </body>
 </html>
